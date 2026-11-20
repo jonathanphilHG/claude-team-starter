@@ -1,0 +1,12 @@
+# Never commit secrets or browser captures
+.env
+.env.*
+*.pem
+*.key
+*.har
+
+# Your private leak-check word list (see check.sh)
+.private-blocklist
+
+# macOS folder files
+.DS_Store
